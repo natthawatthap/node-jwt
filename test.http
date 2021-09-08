@@ -1,0 +1,13 @@
+GET http://localhost:4001/welcome
+###
+
+POST http://localhost:4001/register
+Content-Type: text/html; charset=utf-8
+
+{
+    "first_name": "Natthawat",
+    "last_name": "Thapayapattanakul",
+    "email": "natthawat@gmail.com",
+    "password": "asdasdasdasdasdasd"
+
+}
